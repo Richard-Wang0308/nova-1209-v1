@@ -11,8 +11,8 @@ from functools import lru_cache
 from typing import List, Tuple, Dict
 load_dotenv(override=True)
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
-from nova_ph2.combinatorial_db.reactions import get_smiles_from_reaction, get_reaction_info
-from nova_ph2.utils.molecules import get_heavy_atom_count
+from nova_ph2_mine.combinatorial_db.reactions import get_smiles_from_reaction, get_reaction_info
+from nova_ph2_mine.utils.molecules import get_heavy_atom_count
 from collections import defaultdict
 from itertools import chain
 
